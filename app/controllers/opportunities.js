@@ -7,7 +7,7 @@ module.exports = {
                 include: [
                     {
                         model: Candidate,
-                        as: 'Candidates',
+                        as: 'candidates',
                         through: { attributes: [] },
                     },
                 ],

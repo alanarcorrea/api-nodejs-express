@@ -7,7 +7,7 @@ module.exports = {
                 include: [
                     {
                         model: Opportunity, 
-                        as: 'Opportunities',
+                        as: 'opportunities',
                         through: { atributes: []},
                     },
                 ],
